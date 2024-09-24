@@ -1,0 +1,15 @@
+﻿
+/* carousel.css */
+body {
+    background-color:black;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.carousel-item img {
+    width: 100vw; /* Ocupa el 100% del ancho de la ventana */
+    height: 100vh; /* Ocupa el 100% de la altura de la ventana */
+    object-fit: cover; /* Asegura que la imagen se ajuste sin distorsión */
+}
+
