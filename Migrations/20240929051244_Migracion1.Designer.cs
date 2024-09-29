@@ -12,8 +12,8 @@ using Validacion_WEB.Datos;
 namespace Validacion_WEB.Migrations
 {
     [DbContext(typeof(AplicationDBContext))]
-    [Migration("20240922214922_validacion")]
-    partial class validacion
+    [Migration("20240929051244_Migracion1")]
+    partial class Migracion1
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

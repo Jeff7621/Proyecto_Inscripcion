@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Validacion_WEB.Migrations
 {
     /// <inheritdoc />
-    public partial class validacion : Migration
+    public partial class Migracion1 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
