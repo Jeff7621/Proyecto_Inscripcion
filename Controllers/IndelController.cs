@@ -10,5 +10,18 @@ namespace Validacion_WEB.Controllers
         {
             return View();
         }
+
+
+        [AllowAnonymous]
+        public IActionResult Mecanica()
+        {
+            return View();
+        }
+
+        [AllowAnonymous]
+        public IActionResult FormularioMecanica()
+        {
+            return View();
+        }
     }
 }
