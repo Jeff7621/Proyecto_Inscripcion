@@ -19,6 +19,18 @@ namespace Validacion_WEB.Controllers
         }
 
         [AllowAnonymous]
+        public IActionResult Software()
+        {
+            return View();
+        }
+
+        [AllowAnonymous]
+        public IActionResult General()
+        {
+            return View();
+        }
+
+        [AllowAnonymous]
         public IActionResult FormularioMecanica()
         {
             return View();
