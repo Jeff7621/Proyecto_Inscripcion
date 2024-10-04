@@ -1,0 +1,67 @@
+﻿
+@{
+	ViewData["Title"] = "Nosotros";
+}
+<style>
+    .mb-4 {
+        margin-bottom: 1.5rem !important;
+    }
+
+    .container, .container-fluid, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm {
+        --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 0;
+        width: 100%;
+        padding-right: calc(var(--bs-gutter-x)* 0.5);
+        padding-left: calc(var(--bs-gutter-x)* 0.5);
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .justify-content-center {
+        justify-content: center !important;
+    }
+
+    .g-4, .gx-4 {
+        --bs-gutter-x: 1.5rem;
+    }
+
+    .row {
+        --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 0;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: calc(-1* var(--bs-gutter-y));
+        margin-right: calc(-0.5* var(--bs-gutter-x));
+        margin-left: calc(-0.5* var(--bs-gutter-x));
+    }
+
+
+
+</style>
+
+
+<main>
+    <div class="carousel-inner">
+        <div class="Banner-item active">
+            <img src="/img/banerMecanico.jpeg" />
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1 class="text-color">Bachillerato Mecanica Automotriz</h1>
+                    <p><a class="btn btn-lg btn-primary" asp-controller="Indel" asp-action="Formulario">Inscribirse</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<container class="mb-4">
+    <div class="container px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+            <div class="col-md-10 col-lg-8 col-xl-7">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nostrum ullam eveniet pariatur voluptates odit, fuga atque ea nobis sit soluta odio, adipisci quas excepturi maxime quae totam ducimus consectetur?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius praesentium recusandae illo eaque architecto error, repellendus iusto reprehenderit, doloribus, minus sunt. Numquam at quae voluptatum in officia voluptas voluptatibus, minus!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consequuntur magnam, excepturi aliquid ex itaque esse est vero natus quae optio aperiam soluta voluptatibus corporis atque iste neque sit tempora!</p>
+            </div>
+        </div>
+    </div>
+</container>

@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Validacion_WEB.Models
+namespace Validacion_WEB.Datos
 {
     public class MatriculaEstudiante
     {
@@ -23,7 +23,7 @@ namespace Validacion_WEB.Models
         public DateTime FechaNac { get; set; }
 
 
-        [Required(ErrorMessage ="El campo {0} es necesario")]
+        [Required(ErrorMessage = "El campo {0} es necesario")]
         public string? Correo { get; set; }
 
 
@@ -33,7 +33,7 @@ namespace Validacion_WEB.Models
 
         [Required(ErrorMessage = "El campo {0} es necesario")]
         [StringLength(8, ErrorMessage = "El {0} no puede exceder de {1} caracteres")]
-        public string? Nie { get;set; }
+        public string? Nie { get; set; }
 
         [Required(ErrorMessage = "El campo {0} es requerido")]
         [StringLength(100, ErrorMessage = "El {0} no puede exceder de {1} caracteres")]
@@ -42,7 +42,7 @@ namespace Validacion_WEB.Models
         [Required(ErrorMessage = "El campo {0} es requerido")]
         [Phone(ErrorMessage = "El número de teléfono no es válido")]
         [Display(Name = "Teléfono del Responsable")]
-        public string TelefonoRes{ get; set; }
+        public string TelefonoRes { get; set; }
 
         [Required(ErrorMessage = "Debe seleccionar una opción de Bachillerato")]
         [Display(Name = "Opción de Bachillerato")]

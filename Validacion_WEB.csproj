@@ -29,8 +29,4 @@
     <_ContentIncludedByDefault Remove="wwwroot\css\banner.css" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="wwwroot\img\General\" />
-  </ItemGroup>
-
 </Project>
